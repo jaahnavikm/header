@@ -1,0 +1,25 @@
+*{
+    margin: 2px;
+}
+nav{
+    background-color: lightgray;
+   
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li{
+    cursor: pointer;
+    padding: 10px;
+    flex: auto;
+    text-align: center;
+
+}
+nav ul li:hover{
+    background-color: blue;
+    color: white;
+}
